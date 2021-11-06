@@ -1,7 +1,7 @@
 package main
 
 func main() {
-	message, err := Hello("Umut")
+	message, err := Hello("Master")
 	if err != nil {
 		print(err.Error())
 		return
